@@ -111,8 +111,8 @@ class IBUSService(object):
             except Exception as e:
                 print "Error processing bus dump: " + e.message
 
-            # process packets data (and send to Android)
-            self.process_packets(packets)
+        # process packets data (and send to Android)
+        self.process_packets(packets)
 
     @staticmethod
     def process_packets(packets):
