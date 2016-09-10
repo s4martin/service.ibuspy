@@ -5,6 +5,7 @@ from udp_service.udp import UDPService
 # global services
 udp_service = None
 debug = True
+notify_ike = True
 ibus_service = None
 ibus_log = None
 
